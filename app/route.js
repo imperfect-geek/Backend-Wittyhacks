@@ -15,6 +15,10 @@ const subscribe = require("./controller/subscribe");
 const fetchVehiclePosition = require("./controller/fetchVehiclePosition");
 
 //routes
+router.get("/", (req, res) => {
+  res.send("Server up and running")
+})
+
 router.post("/signup", signup, (req, res) => {
   console.log("Signed Up");
 });
