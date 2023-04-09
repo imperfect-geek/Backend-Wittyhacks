@@ -25,5 +25,3 @@ yarn-error.log*
 
 ML
 app/public/*
-
-package-lock.json
