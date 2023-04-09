@@ -28,7 +28,7 @@ app.use(express.static(__dirname + "dist"));
 app.use(cors());
 app.use(route);
 
-const PORT = process.env.SERVER_PORT || 8080;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}`);
 });
